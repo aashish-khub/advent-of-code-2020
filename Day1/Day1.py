@@ -6,8 +6,8 @@ Created on Wed Dec  2 16:20:57 2020
 @author: aashishk29
 """
 f = open("input.txt")
-data = f.read().split("\n")
-data = [int(i) for i in data[:-1]]
+data = f.read().split("\n")[:-1]
+data = [int(i) for i in data]
 data.sort()
 
 
